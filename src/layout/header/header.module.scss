@@ -1,0 +1,40 @@
+header {
+  padding-top: 20px;
+}
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.logoblock {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.logotitle {
+  max-width: 198px;
+  color: rgb(113, 113, 113);
+  font-family: Roboto;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.header__korzinka_block {
+  gap: 25px;
+  display: flex;
+  align-items: center;
+}
+.header__bottom {
+    max-width: 100%;
+  padding-top: 20px;
+  padding-bottom: 11px;
+  background-color: rgb(14, 33, 73);
+}
