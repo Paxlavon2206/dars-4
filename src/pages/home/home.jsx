@@ -14,8 +14,10 @@ export const Home = () => {
   return (
     <MainLayout>
       {bannerData.map((item,i) => <MainBanner key={i} img={item.img} title={item.title} text={item.text} button={item.button}/>)}
+      <div className="box">
       {products.map((item,i) => <Productcard 
       key={i}  img={item.img} title={item.title} text={item.text}/> )}
+      </div>
       <ul className="tab_list">
         <li><img src={tab1} alt="" /></li>
         <li><img src={tab2} alt="" /></li>
