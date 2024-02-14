@@ -1,0 +1,26 @@
+.product{
+    position: relative;
+    display: inline;
+   }
+   .product_block{
+    position: absolute;
+    z-index: 2;
+    top: -200px;
+    width: 200px;
+    left: 52px;
+   }
+   .product_title{
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+   }
+   .product_text{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+   }
+   .product_img{
+    height: 250px;
+    margin-left:22px;
+    margin-bottom: 22px;
+   }

@@ -1,12 +1,19 @@
 import React from "react";
+import style from "./main-banner.module.scss"
+import bannerBg from "/banner-bg.png"
 
-export const MainBanner = ({ title, text, img, full }) => {
+export const MainBanner = ({ title, text, img}) => {
   return (
-    <div style={full ? { backgroundColor: "red" } : {}}>
-      <img src={img} alt="img" />
-      <h1>{title}</h1>
-      <p>{text}</p>
-      <button>send</button>
+    <div className={style.banner}>
+    <img className={style.banner_img} src={img} alt="img" />
+    <div className="container">
+    <div className={style.banner_block}>
+      <h1 className={style.banner_title}>{title}</h1>
+      <p className={style.banner_text}>{text}</p>
+      <button className={style.banner_btn}>Купить</button> 
     </div>
+    </div>
+  </div>
   );
+  
 };
